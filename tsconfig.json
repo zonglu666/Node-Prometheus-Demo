@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*", "node_modules/@types/*"],
+      "local/config": ["./src/config"]
+    }
+  }
+}
